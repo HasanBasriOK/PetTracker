@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.Entity", "PetTracker.Entity\PetTracker.Entity.csproj", "{B75611F6-1670-420E-858F-E8A8DC121CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.Tests", "PetTracker.Tests\PetTracker.Tests.csproj", "{7892297B-2827-42C1-9166-46AA3848798A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.Utilities", "PetTracker.Utilities\PetTracker.Utilities.csproj", "{4C6BB366-D1CB-4C08-82A3-1CF14ABDC4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.Business", "PetTracker.Business\PetTracker.Business.csproj", "{D70C5A12-D034-47C3-892D-07FBA8A584AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.DataAccess", "PetTracker.DataAccess\PetTracker.DataAccess.csproj", "{34147CFD-5577-48F1-B4D6-ED580FA3E50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.RestService", "PetTracker.RestService\PetTracker.RestService.csproj", "{E95B56C5-23EA-43EE-BA8D-98A98DAF84EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75611F6-1670-420E-858F-E8A8DC121CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75611F6-1670-420E-858F-E8A8DC121CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75611F6-1670-420E-858F-E8A8DC121CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75611F6-1670-420E-858F-E8A8DC121CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7892297B-2827-42C1-9166-46AA3848798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7892297B-2827-42C1-9166-46AA3848798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7892297B-2827-42C1-9166-46AA3848798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7892297B-2827-42C1-9166-46AA3848798A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6BB366-D1CB-4C08-82A3-1CF14ABDC4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6BB366-D1CB-4C08-82A3-1CF14ABDC4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6BB366-D1CB-4C08-82A3-1CF14ABDC4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6BB366-D1CB-4C08-82A3-1CF14ABDC4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70C5A12-D034-47C3-892D-07FBA8A584AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70C5A12-D034-47C3-892D-07FBA8A584AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70C5A12-D034-47C3-892D-07FBA8A584AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70C5A12-D034-47C3-892D-07FBA8A584AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34147CFD-5577-48F1-B4D6-ED580FA3E50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34147CFD-5577-48F1-B4D6-ED580FA3E50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34147CFD-5577-48F1-B4D6-ED580FA3E50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34147CFD-5577-48F1-B4D6-ED580FA3E50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95B56C5-23EA-43EE-BA8D-98A98DAF84EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95B56C5-23EA-43EE-BA8D-98A98DAF84EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95B56C5-23EA-43EE-BA8D-98A98DAF84EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95B56C5-23EA-43EE-BA8D-98A98DAF84EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
