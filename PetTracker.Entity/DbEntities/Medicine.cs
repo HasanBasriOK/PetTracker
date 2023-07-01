@@ -8,4 +8,6 @@ public class Medicine : BaseEntity
     public MedicineUsageReason UsageReason { get; set; }
     public string ScheduleCronEx { get; set; }
     public bool IsScheduleActive { get; set; }
+
+    public ICollection<MedicineDocument> Documents { get; set; }
 } 

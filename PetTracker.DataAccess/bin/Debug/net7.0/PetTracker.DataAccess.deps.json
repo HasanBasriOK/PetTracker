@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.8",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.8"
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.8",
+          "PetTracker.Entity": "1.0.0"
         },
         "runtime": {
           "PetTracker.DataAccess.dll": {}
@@ -149,6 +150,11 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "PetTracker.Entity/1.0.0": {
+        "runtime": {
+          "PetTracker.Entity.dll": {}
+        }
       }
     }
   },
@@ -248,6 +254,11 @@
       "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "PetTracker.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

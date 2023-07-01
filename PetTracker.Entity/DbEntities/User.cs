@@ -9,4 +9,6 @@ public class User : BaseEntity
     public DateTime BirthDate { get; set; }
     public string Password { get; set; }
     public UserState State { get; set; }
+
+    public ICollection<Pet> Pets { get; set; }
 }

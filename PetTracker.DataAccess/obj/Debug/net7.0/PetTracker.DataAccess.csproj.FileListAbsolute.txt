@@ -10,3 +10,6 @@
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/refint/PetTracker.DataAccess.dll
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.pdb
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/ref/PetTracker.DataAccess.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/bin/Debug/net7.0/PetTracker.Entity.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/bin/Debug/net7.0/PetTracker.Entity.pdb
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.csproj.CopyComplete

@@ -8,4 +8,6 @@ public class Treatment : BaseEntity
     public DateTime Date { get; set; }
     public string Vet { get; set; }
     public string Description { get; set; }
+
+    public ICollection<TreatmentDocument> Documents { get; set; }
 }
