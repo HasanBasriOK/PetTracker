@@ -1,0 +1,12 @@
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.Business.deps.json
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.Business.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.Business.pdb
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.csproj.AssemblyReference.cache
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.AssemblyInfoInputs.cache
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.AssemblyInfo.cs
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.csproj.CoreCompileInputs.cache
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/refint/PetTracker.Business.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.pdb
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/ref/PetTracker.Business.dll

@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "2n7NuFmPXGAjvIlylEQMm/UgRCoRNdWWjGcCZMkEGA2HmkX2hypduoDsi87nkuTduwPqQeMqEexkrOW3BeLklw==",
+  "dgSpecHash": "Poy8xSEKQRA7AHwXdT/oKeYh3B/H2AVWQsANFZw+OKi/Ii3Dha5k2B/WjaFnr0B++6Kse+ZmjlsfPA0+TutNXA==",
   "success": true,
   "projectFilePath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/hasanok/.nuget/packages/microsoft.entityframeworkcore/7.0.8/microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.8/microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.8/microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.8/microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/hasanok/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

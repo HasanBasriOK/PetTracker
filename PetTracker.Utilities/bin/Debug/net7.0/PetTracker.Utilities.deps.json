@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PetTracker.Utilities/1.0.0": {
+        "dependencies": {
+          "PetTracker.Entity": "1.0.0"
+        },
+        "runtime": {
+          "PetTracker.Utilities.dll": {}
+        }
+      },
+      "PetTracker.Entity/1.0.0": {
+        "runtime": {
+          "PetTracker.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PetTracker.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetTracker.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

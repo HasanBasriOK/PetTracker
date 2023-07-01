@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/PetTracker.RestService.props" />
+</Project>

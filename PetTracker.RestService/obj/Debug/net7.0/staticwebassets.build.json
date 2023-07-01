@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sS0vLhpKYdyRPQyaejJqI74ddOEhum3hnk8Q2/dQKJc=",
+  "Source": "PetTracker.RestService",
+  "BasePath": "_content/PetTracker.RestService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

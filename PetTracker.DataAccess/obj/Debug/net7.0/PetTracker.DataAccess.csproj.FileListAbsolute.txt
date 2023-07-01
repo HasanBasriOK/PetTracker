@@ -1,0 +1,12 @@
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/bin/Debug/net7.0/PetTracker.DataAccess.deps.json
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/bin/Debug/net7.0/PetTracker.DataAccess.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/bin/Debug/net7.0/PetTracker.DataAccess.pdb
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.csproj.AssemblyReference.cache
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.AssemblyInfoInputs.cache
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.AssemblyInfo.cs
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.csproj.CoreCompileInputs.cache
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/refint/PetTracker.DataAccess.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/PetTracker.DataAccess.pdb
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/Debug/net7.0/ref/PetTracker.DataAccess.dll
