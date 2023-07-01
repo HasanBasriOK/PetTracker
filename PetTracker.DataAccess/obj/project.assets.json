@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
+      "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
       "projectName": "PetTracker.DataAccess",
-      "projectPath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
+      "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
       "packagesPath": "/Users/hasanok/.nuget/packages/",
-      "outputPath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.DataAccess/obj/",
+      "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hasanok/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }

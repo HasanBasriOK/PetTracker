@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj": {}
+    "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj": {}
   },
   "projects": {
-    "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj": {
+    "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj",
+        "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj",
         "projectName": "PetTracker.Tests",
-        "projectPath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj",
+        "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj",
         "packagesPath": "/Users/hasanok/.nuget/packages/",
-        "outputPath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Tests/obj/",
+        "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hasanok/.nuget/NuGet/NuGet.Config"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }

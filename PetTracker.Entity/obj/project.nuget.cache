@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZHFuecla76cU472f3/TiEsvmkX6aPHiWzw6GLvCmKPohU6htGWYwQtGhf/ceVupvtexisVvU+xlVeuNihNwlcg==",
+  "dgSpecHash": "by9UeOvYB4Us9ms1LSBVRJiOplx4FGcDwN4SJjF6fOB+lD6m0EEWbbNQcCwr2NlLj+kXm9QcPaiMLFFbvC2qVg==",
   "success": true,
-  "projectFilePath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj",
+  "projectFilePath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

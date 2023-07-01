@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FvUHEg6u2C3ukGkIJxe5lj/EuYMQ1wMd9wXpFstr0E+ILFIDjq1rG4e1ulbufH+CC8PTdauyMeOU4bfwXv5IaQ==",
+  "dgSpecHash": "FkIRhxz1KgPp6M5nRLwL7HqjBfDdgeB2mYBRLquakgLRqdZq/74m3UOvW0sNp5fXf5Yyfw+RRLmBF/+ImjnhPw==",
   "success": true,
-  "projectFilePath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj",
+  "projectFilePath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Tests/PetTracker.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/hasanok/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/Users/hasanok/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",

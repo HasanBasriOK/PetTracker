@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Business/PetTracker.Business.csproj",
+      "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj",
       "projectName": "PetTracker.Business",
-      "projectPath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Business/PetTracker.Business.csproj",
+      "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj",
       "packagesPath": "/Users/hasanok/.nuget/packages/",
-      "outputPath": "/Users/hasanok/RiderProjects/PetTracker/PetTracker.Business/obj/",
+      "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hasanok/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }
