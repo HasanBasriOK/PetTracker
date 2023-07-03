@@ -4,6 +4,187 @@
     "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/PetTracker.RestService.csproj": {}
   },
   "projects": {
+    "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj",
+        "projectName": "PetTracker.Business",
+        "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj",
+        "packagesPath": "/Users/hasanok/.nuget/packages/",
+        "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hasanok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
+        "projectName": "PetTracker.DataAccess",
+        "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj",
+        "packagesPath": "/Users/hasanok/.nuget/packages/",
+        "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hasanok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj",
+        "projectName": "PetTracker.Entity",
+        "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj",
+        "packagesPath": "/Users/hasanok/.nuget/packages/",
+        "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hasanok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/PetTracker.RestService.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +207,17 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/PetTracker.Business.csproj"
+              },
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj"
+              },
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,6 +237,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.31.0, )"
             }
           },
           "imports": [
@@ -63,6 +258,63 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj",
+        "projectName": "PetTracker.Utilities",
+        "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj",
+        "packagesPath": "/Users/hasanok/.nuget/packages/",
+        "outputPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hasanok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Entity/PetTracker.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

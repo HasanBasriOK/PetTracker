@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\PetTracker.DataAccess\PetTracker.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>
