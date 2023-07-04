@@ -4,7 +4,7 @@ using PetTracker.Entity.Constants;
 
 namespace PetTracker.Utilities;
 
-public class Encrypter
+public static class Encrypter
 {
     public static string Encrypt(string plainText, string key)
     {
