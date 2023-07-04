@@ -1,13 +1,14 @@
 using PetTracker.Business.Abstraction;
+using PetTracker.DataAccess.EntityRepositories.Abstraction;
 
 namespace PetTracker.Business;
 
 public class VaccineService : IVaccineService
 {
-    private readonly IVaccineService _vaccineService;
+    private readonly IVaccineRepository _vaccineRepository;
 
-    public VaccineService(IVaccineService vaccineService)
+    public VaccineService(IVaccineRepository vaccineRepository)
     {
-        _vaccineService = vaccineService;
+        _vaccineRepository = vaccineRepository;
     }
 }

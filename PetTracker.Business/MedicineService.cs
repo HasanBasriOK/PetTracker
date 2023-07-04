@@ -1,13 +1,14 @@
 using PetTracker.Business.Abstraction;
+using PetTracker.DataAccess.EntityRepositories.Abstraction;
 
 namespace PetTracker.Business;
 
 public class MedicineService : IMedicineService
 {
-    private readonly IMedicineService _medicineService;
+    private readonly IMedicineRepository _medicineRepository;
 
-    public MedicineService(IMedicineService medicineService)
+    public MedicineService(IMedicineRepository medicineRepository)
     {
-        _medicineService = medicineService;
+        _medicineRepository = medicineRepository;
     }
 }

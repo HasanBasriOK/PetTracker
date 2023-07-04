@@ -522,7 +522,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "PetTracker.DataAccess": "1.0.0"
+          "PetTracker.DataAccess": "1.0.0",
+          "PetTracker.Utilities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PetTracker.Business.dll": {}

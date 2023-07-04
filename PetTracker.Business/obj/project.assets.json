@@ -259,6 +259,19 @@
         "runtime": {
           "bin/placeholder/PetTracker.Entity.dll": {}
         }
+      },
+      "PetTracker.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PetTracker.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetTracker.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetTracker.Utilities.dll": {}
+        }
       }
     }
   },
@@ -623,11 +636,17 @@
       "type": "project",
       "path": "../PetTracker.Entity/PetTracker.Entity.csproj",
       "msbuildProject": "../PetTracker.Entity/PetTracker.Entity.csproj"
+    },
+    "PetTracker.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../PetTracker.Utilities/PetTracker.Utilities.csproj",
+      "msbuildProject": "../PetTracker.Utilities/PetTracker.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "PetTracker.DataAccess >= 1.0.0"
+      "PetTracker.DataAccess >= 1.0.0",
+      "PetTracker.Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -657,6 +676,9 @@
           "projectReferences": {
             "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj": {
               "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj"
+            },
+            "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj": {
+              "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj"
             }
           }
         }

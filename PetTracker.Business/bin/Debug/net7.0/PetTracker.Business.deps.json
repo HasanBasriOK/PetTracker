@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "PetTracker.Business/1.0.0": {
         "dependencies": {
-          "PetTracker.DataAccess": "1.0.0"
+          "PetTracker.DataAccess": "1.0.0",
+          "PetTracker.Utilities": "1.0.0"
         },
         "runtime": {
           "PetTracker.Business.dll": {}
@@ -163,6 +164,14 @@
         "runtime": {
           "PetTracker.Entity.dll": {}
         }
+      },
+      "PetTracker.Utilities/1.0.0": {
+        "dependencies": {
+          "PetTracker.Entity": "1.0.0"
+        },
+        "runtime": {
+          "PetTracker.Utilities.dll": {}
+        }
       }
     }
   },
@@ -269,6 +278,11 @@
       "sha512": ""
     },
     "PetTracker.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetTracker.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

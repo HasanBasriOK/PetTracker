@@ -1,13 +1,14 @@
 using PetTracker.Business.Abstraction;
+using PetTracker.DataAccess.EntityRepositories.Abstraction;
 
 namespace PetTracker.Business;
 
 public class PetService : IPetService
 {
-    private readonly IPetService _petService;
+    private readonly IPetRepository _petRepository;
 
-    public PetService(IPetService petService)
+    public PetService(IPetRepository petRepository)
     {
-        _petService = petService;
+        _petRepository = petRepository;
     }
 }

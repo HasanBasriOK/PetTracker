@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj": {
                 "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.DataAccess/PetTracker.DataAccess.csproj"
+              },
+              "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj": {
+                "projectPath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Utilities/PetTracker.Utilities.csproj"
               }
             }
           }

@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\PetTracker.DataAccess\PetTracker.DataAccess.csproj" />
+      <ProjectReference Include="..\PetTracker.Utilities\PetTracker.Utilities.csproj" />
     </ItemGroup>
 
 </Project>

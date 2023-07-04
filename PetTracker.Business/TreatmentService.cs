@@ -1,13 +1,14 @@
 using PetTracker.Business.Abstraction;
+using PetTracker.DataAccess.EntityRepositories.Abstraction;
 
 namespace PetTracker.Business;
 
 public class TreatmentService : ITreatmentService
 {
-    private readonly ITreatmentService _treatmentService;
+    private readonly ITreatmentRepository _treatmentRepository;
 
-    public TreatmentService(ITreatmentService treatmentService)
+    public TreatmentService(ITreatmentRepository treatmentRepository)
     {
-        _treatmentService = treatmentService;
+        _treatmentRepository = treatmentRepository;
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aqOVgF8AKsPgatvTHg8g8XgSW4dYHMNmMHr5IxnytiAM35q6lzr88oTaqKWz+drc/X7e7Y9aEhyi3ZF2I8GyaA==",
+  "dgSpecHash": "EsVepsfqtajxO5N9vJDRY4AzosHnugFfGUpZyEhofr6ipQECOqJ93+3P5orH+28HQRLLemYjvT2Pw/1P0HSbdA==",
   "success": true,
   "projectFilePath": "/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/PetTracker.RestService.csproj",
   "expectedPackageFiles": [

@@ -15,3 +15,5 @@
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.DataAccess.pdb
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.Entity.pdb
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/obj/Debug/net7.0/PetTracker.Business.csproj.CopyComplete
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.Utilities.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.Business/bin/Debug/net7.0/PetTracker.Utilities.pdb

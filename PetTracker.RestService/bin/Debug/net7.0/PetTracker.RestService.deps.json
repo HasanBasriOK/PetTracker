@@ -233,7 +233,8 @@
       "System.Text.Json/4.7.2": {},
       "PetTracker.Business/1.0.0": {
         "dependencies": {
-          "PetTracker.DataAccess": "1.0.0"
+          "PetTracker.DataAccess": "1.0.0",
+          "PetTracker.Utilities": "1.0.0"
         },
         "runtime": {
           "PetTracker.Business.dll": {}
