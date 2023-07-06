@@ -33,6 +33,7 @@ public class UserService : IUserService
         var loginResponse = new LoginResponse();
         loginResponse.Email = user.Email;
         loginResponse.UserId = user.Id;
+        loginResponse.Name = user.Name;
         return new SuccessResult<LoginResponse>(loginResponse);
     }
 
