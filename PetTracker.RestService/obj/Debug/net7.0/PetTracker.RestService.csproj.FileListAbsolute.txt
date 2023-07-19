@@ -47,3 +47,6 @@
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/bin/Debug/net7.0/PetTracker.DataAccess.pdb
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/bin/Debug/net7.0/PetTracker.Utilities.pdb
 /Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/bin/Debug/net7.0/PetTracker.Entity.pdb
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/hasanok/Documents/GitHub/PetTracker/PetTracker.RestService/bin/Debug/net7.0/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
