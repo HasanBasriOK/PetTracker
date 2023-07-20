@@ -28,7 +28,7 @@ public class UserService : IUserService
             .FirstOrDefaultAsync();
 
         if (user == null)
-            return new FailResult<LoginResponse>(ApplicationMessageContants.UserNotFound);
+            return new FailResult<LoginResponse>(ApplicationMessageConstants.UserNotFound);
         
         var loginResponse = new LoginResponse();
         loginResponse.Email = user.Email;

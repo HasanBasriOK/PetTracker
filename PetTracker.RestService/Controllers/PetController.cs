@@ -25,5 +25,18 @@ public class PetController : BaseController
         
         return Ok(response);
     }
+    
+    [HttpPut("UpdatePet")]
+    [ProducesResponseType(statusCode:200,type:typeof(BaseResponse<UpdatePetResponse>))]
+    public async Task<IActionResult> UpdatePet(UpdatePetRequest request)
+    {
+        var result = await _petService.UpdatePet(request);
+        var response = new BaseResponse<CreatePetResponse>(result.IsSuccess,result.Messages);
+
+        if (!result.IsSuccess)
+            return BadRequest(response);
+        
+        return Ok(response);
+    }
 
 }

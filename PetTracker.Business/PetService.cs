@@ -38,7 +38,31 @@ public class PetService : IPetService
 
         var createdPet = await _petRepository.AddAsync(pet);
         var response = new SuccessResult<CreatePetResponse>(new CreatePetResponse());
-        response.Messages.Add(ApplicationMessageContants.PetCreatedSuccessfully);
+        response.Messages.Add(ApplicationMessageConstants.PetCreatedSuccessfully);
+
+        return response;
+    }
+
+    public async Task<BaseResult<UpdatePetResponse>> UpdatePet(UpdatePetRequest request)
+    {
+        var pet = await _petRepository.GetById(request.PetId);
+
+        if (pet == null)
+            return new FailResult<UpdatePetResponse>(ApplicationMessageConstants.PetCouldntFount);
+
+        pet.Gender = request.Gender;
+        pet.Kind = request.Kind;
+        pet.Name = request.Name;
+        pet.Type = request.Type;
+        pet.BirthDate = request.BirthDate;
+        
+        if(request.ImageFile != null)
+            pet.ImagePath = SavePetImage(pet.Id, request.ImageFile, request.ImageExtension);
+        
+        _petRepository.Update(pet);
+
+        var response = new SuccessResult<UpdatePetResponse>(new UpdatePetResponse());
+        response.Messages.Add(ApplicationMessageConstants.PetUpdatedSuccessfully);
 
         return response;
     }
@@ -48,7 +72,11 @@ public class PetService : IPetService
         MemoryStream ms = new MemoryStream(image);
         System.Drawing.Image imageFile = System.Drawing.Image.FromStream(ms);
         var imageName = $"{petId}{extension.ToString()}";
-        var imagePath = Path.Combine(_configuration.GetSection("ImagePath").Value!, imageName ); 
+        var imagePath = Path.Combine(_configuration.GetSection("ImagePath").Value!, imageName );
+        
+        if(File.Exists(imagePath))
+            imagePath = Path.Combine(_configuration.GetSection("ImagePath").Value!, imageName + DateTime.Now.ToString("yyyyMMddHHmmss"));
+        
         imageFile.Save(imagePath);
 
         return imagePath;

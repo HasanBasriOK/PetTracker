@@ -7,4 +7,5 @@ namespace PetTracker.Business.Abstraction;
 public interface IPetService
 {
     Task<BaseResult<CreatePetResponse>> CreatePet(CreatePetRequest request);
+    Task<BaseResult<UpdatePetResponse>> UpdatePet(UpdatePetRequest request);
 }
