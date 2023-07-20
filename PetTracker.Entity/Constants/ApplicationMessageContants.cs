@@ -13,6 +13,7 @@ public static class ApplicationMessageConstants
     public const string PetCreatedSuccessfully = "Pet created successfully";
     public const string PetCouldntFount = "Pet couldn't found";
     public const string PetUpdatedSuccessfully = "Pet informations updated successfully";
+    public const string PetDeletedSuccessfully = "Pet deleted successfully";
 
     #endregion
 

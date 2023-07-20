@@ -8,4 +8,5 @@ public interface IPetService
 {
     Task<BaseResult<CreatePetResponse>> CreatePet(CreatePetRequest request);
     Task<BaseResult<UpdatePetResponse>> UpdatePet(UpdatePetRequest request);
+    Task<BaseResult<DeletePetResponse>> DeletePet(Guid id);
 }

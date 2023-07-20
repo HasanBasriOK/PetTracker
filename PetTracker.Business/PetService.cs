@@ -67,6 +67,20 @@ public class PetService : IPetService
         return response;
     }
 
+    public async Task<BaseResult<DeletePetResponse>> DeletePet(Guid id)
+    {
+        var pet = await _petRepository.GetById(id);
+        
+        if (pet == null)
+            return new FailResult<DeletePetResponse>(ApplicationMessageConstants.PetCouldntFount);
+        
+        _petRepository.Delete(pet);
+        var response = new SuccessResult<DeletePetResponse>(new DeletePetResponse());
+        response.Messages.Add(ApplicationMessageConstants.PetUpdatedSuccessfully);
+
+        return response;
+    }
+
     private string SavePetImage(Guid petId,byte[] image,ImageExtension extension)
     {
         MemoryStream ms = new MemoryStream(image);

@@ -38,5 +38,18 @@ public class PetController : BaseController
         
         return Ok(response);
     }
+    
+    [HttpDelete("DeletePet")]
+    [ProducesResponseType(statusCode:200,type:typeof(BaseResponse<DeletePetResponse>))]
+    public async Task<IActionResult> DeletePet([FromQuery]Guid id)
+    {
+        var result = await _petService.DeletePet(id);
+        var response = new BaseResponse<DeletePetResponse>(result.IsSuccess,result.Messages);
+
+        if (!result.IsSuccess)
+            return BadRequest(response);
+        
+        return Ok(response);
+    }
 
 }
